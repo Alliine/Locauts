@@ -57,7 +57,7 @@ GET        |/clinica/{id}         | Retorna todos os itens de funcionarios de um
  
  
 
-**Inserindo um novo Funcionario**
+**Inserindo um novo Funcionário**
 
 { 
 
