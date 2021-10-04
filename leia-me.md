@@ -1,3 +1,4 @@
+[Locauts3Bimestre (.pdf](https://github.com/Alliine/Locauts/files/7278368/Locauts3Bimestre.pdf)
 Projeto Locauts 
 
 Nomes:  
