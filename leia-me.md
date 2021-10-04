@@ -1,5 +1,4 @@
-[Locauts3Bimestre (.pdf](https://github.com/Alliine/Locauts/files/7278368/Locauts3Bimestre.pdf)
-Projeto Locauts 
+<h1>Projeto Locauts</h1>
 
 Nomes:  
 
@@ -11,67 +10,28 @@ Geovanna Caroline Rodrigues
 
 Maria Gabrielle Minnitti Honório Soares 
 
- 
 
-Link GitHub: https://github.com/Alliine/Locauts.git 
+<br><br>
 
- 
+<h3>Tabela de paths/endpoints </h3>
 
-Tabela de paths/endpoints 
+Verbo HTTP | Caminhos (Endpoints) |Descrição 
+-----------|----------------------|---------
+GET        |/clinica              |Retorna todas as clinicas salvas 
+POST       |/clinica/criar        |Criar uma nova clinica  
+PUT        |/clinica/alterar_funcionario/{id} |Alterar um funcionário de uma clinica 
+DELETE     |/clinica/deletar_funcionario/{id} |Deletar um funcionário de uma clinica 
+POST       |/clinica/criar_funcionario/{id} | Criar um novo funcionário de uma clinica 
+GET        |/clinica/{id}         | Retorna todos os itens de funcionarios de uma clinica 
 
- 
-
-Verbo HTTP 
-
-Caminhos (Endpoints) 
-
-Descrição 
-
-GET 
-
-/clinica 
-
-Retorna todas as clinicas salvas 
-
-POST 
-
-/clinica/criar 
-
-Criar uma nova clinica  
-
-PUT 
-
-/clinica/alterar_funcionario/{id} 
-
-Alterar um funcionário de uma clinica 
-
-DELETE 
-
-/clinica/deletar_funcionario/{id} 
-
-Deletar um funcionário de uma clinica 
-
-POST 
-
-/clinica/criar_funcionario/{id} 
-
-Criar um novo funcionário de uma clinica 
-
-GET 
-
-/clinica/{id} 
-
-Retorna todos os itens de funcionarios de uma clinica 
 
  
+<br><br>
 
- 
+<h3>Modelos JSON:</h3>
 
-Modelos JSON:  
 
-  
-
-Inserindo uma nova Clinica 
+**Inserindo uma nova Clinica** 
 
 { 
 
@@ -91,15 +51,13 @@ Inserindo uma nova Clinica
 
 “horario_atendimento”: 15  
 
-} 
+}
 
+<br><br>
+ 
  
 
- 
-
- 
-
-Inserindo um novo Funcionario 
+**Inserindo um novo Funcionario**
 
 { 
 
