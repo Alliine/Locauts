@@ -103,5 +103,14 @@ public class ClinicaController {
         }
         return null;
     }
+     @DeleteMapping("/clinica/deletar_clinica/{id}")
+    public ClinicaModel deleteClinica(@PathVariable Long id){
+        if(clinicaRepository.findById(id).isPresent()){
+            ClinicaModel clinica = clinicaRepository.findById(id).get();
+            clinicaRepository.delete(clinica);
+            return clinica;
+        }
+        return null;
+    }
     
 }
